@@ -23,27 +23,28 @@ Notes:      - Thanks to the supportive people on r/RoamResearch
 
 */
 
+
 :root {
   /* PRIMARY FONTS */
-  --main-font: 'Inter', sans-serif;
-  --main-font-color: #282828;
-  --main-font-size: 1.0em;
+  --main-font: 'Avenir', sans-serif;
+  --main-font-color: #49556f;
+  --main-font-size: 1.02em;
 
   /* FONT COLORS */
 
-  --page-link-color: #0073f9;
-  --page-bracket-color: #bfbfbf;
-  --external-link-color: #0073f9;
+  --page-link-color: #5c05ae;
+  --page-bracket-color: #8a3cc8;
+  --external-link-color: #5c05ae;
   --daily-notes-link-color: none;
   --sidebar-link-color: none;
   --h1-font-color: #202b33;
   --h2-font-color: none;
-  --h3-font-color: #75b5ff;
+  --h3-font-color: #5c05ae;
   --strong: #282828;
   --emphasis: #282828;
   --highlight-font-color: #282828;
   --highlight-background-color: #fff1a4;
-  --highlight-link-color: #0073f9;
+  --highlight-link-color: #5c05ae;
   --highlight-padding: 4px 5px 4px 5px;
   --reference-header-color: #d6eaff;
   --sidebar-font-color: #717171;
@@ -52,7 +53,7 @@ Notes:      - Thanks to the supportive people on r/RoamResearch
   --sidebar-font-hover-color: #f5f8fa;
   --sidebar-shorcut-color: #545454;
 
-  --tag-font-color: #bebebe;
+  --tag-font-color: #3C3B3B;
   --tag-bg-color: #f9f9f9cf;
   --tag-border-radius: 10px;
   --tag-border: 1px solid #e6e6e682;
@@ -61,8 +62,8 @@ Notes:      - Thanks to the supportive people on r/RoamResearch
   --tagHover-bg-color: #e8e8e8;
   --tagHover-border: 1px solid #dddddd82;
 
-  --bullet-color: #0069e3;
-  --bullet-closed: #bcdbffb5;
+  --bullet-color: #e5e9f2;;
+  --bullet-closed: #e5e9f2;
   --tree-vertline: 2px solid hsl(0, 0%, 96%);
   --bullet-position: ; /* UPDATE*/
 
@@ -112,7 +113,7 @@ Notes:      - Thanks to the supportive people on r/RoamResearch
 
   /* BACKGROUNDS & OUTLINES */
 
-  --body-bg: #f9f9f9;
+  --body-bg: #ffffff;
   --topbar-bg: none;
   --topbar-border-bottom: none;
   --left-sidebar-bg: #2e3234;
@@ -165,6 +166,8 @@ Notes:      - Thanks to the supportive people on r/RoamResearch
   --icon-bg-hover: #ebebeb;
   --icon-color-hover: #5c636b;
   --minirightbar-icon-color: #cfcfcf;
+
+
 
   /* Misc */
   --kanban-board-bg: #fafcfd;
