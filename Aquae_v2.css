@@ -1,13 +1,10 @@
 /*
-
 Theme:      Roam Aquae Theme
 Edits by:   Cal Robert Lee (https://www.calrobert.com/)
 Colors by:  Cal Robert Lee
 Version:    v2.2.0
 Mirror:     https://raw.githubusercontent.com/calrobertlee/roam-css-styles/master/Aquae.css
-
 Quickfix:   - left sidebar "Shortcuts" header reposition
-
 Updates:    - Added centered search popup using code from Azlen Elza's Zenith theme — code starts around line 1174
             - Edited colors for almost all elements
             - Removed topbar
@@ -15,12 +12,10 @@ Updates:    - Added centered search popup using code from Azlen Elza's Zenith th
             - Cleaned up spacing in left bar
             - Changed loading animation and page load animation
             - and more
-
 Notes:      - Thanks to the supportive people on r/RoamResearch
             - Started learning programming and CSS last month so please excuse if it's a bit messy
             - Super excited to have been selected to be on RoamResearch's Official theme's page!
             - For easy installation, create a page titled roam/css in RoamResearch and copy this code in
-
 */
 
 
@@ -235,22 +230,29 @@ Notes:      - Thanks to the supportive people on r/RoamResearch
 .roam-body .roam-app .roam-main {
   width: 100%;
   display: flex;
+  
 }
 .roam-body .roam-app .roam-main .roam-article {
   position: relative;
   padding: 16px 42px 120px;
+  line-height: 1.7em !important;
 }
 .roam-body .roam-app .roam-main .roam-article .rm-title-display {
   margin-bottom: 32px;
 }
 .rm-block-text {
   /*max-width: 1100px;*/
-  max-width: 100%; /* make references as wide as possible3 */
+  max-width: 90%; /* make references as wide as possible3 */
 }
 
+div,
+textarea {
+
+  line-height: 1.7em !important;
+
+}
 /* !!!!! Un-comment the section below to maximize page width, line length, and images widths (grabbed from Jeff Harris's Railcast theme)  —— Just know it creates display issues in the graph! */
 /*
-
 .roam-block-container {
   max-width: 100% !important;
 }
@@ -285,6 +287,7 @@ div.roam-center > div:first-child {
 /* MAIN BODY TEXT COLOR */
 .roam-app {
     color: var(--main-font-color) !important;
+    line-height: 1.7em !important;
 }
 /* H1 COLOR */
 .roam-body .roam-app h1 {
@@ -1644,4 +1647,3 @@ span.rm-page-ref[data-tag="Tools"] , span[data-link-title^='Tools'] .rm-page-ref
 .rm-alias-external:after {
     content: ' 🔗'
 }
-  
