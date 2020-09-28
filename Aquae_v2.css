@@ -18,12 +18,10 @@ Notes:      - Thanks to the supportive people on r/RoamResearch
             - For easy installation, create a page titled roam/css in RoamResearch and copy this code in
 */
 
-@import url("https://github.com/iaolo/iA-Fonts/blob/master/iA%20Writer%20Quattro/Static/iAWriterQuattroS-Regular.ttf");
-@import url("https://github.com/iaolo/iA-Fonts/blob/master/iA%20Writer%20Quattro/Static/iAWriterQuattroS-Bold.ttf");
 
 :root {
   /* PRIMARY FONTS */
-  --main-font: 'iA Writer Quattro S';
+  --main-font: 'Open Sans', sans-serif;
   --main-font-color: #49556f;
   --main-font-size: 1.02em;
 
